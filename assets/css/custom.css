@@ -2,7 +2,77 @@
 Custom Css
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .img-fluid{
-    max-width: 90%;
+    max-width: 100%;
     height: 90%;
 }
+
+.login{
+    /* width: 15rem; */
+    /* margin: 10em; */
+    border-radius: 15px;
+    padding: 2em 3em !important ;
+    display: flex;
+    flex-direction: column !important;
+    background-color: #f4b4e1;
+    color: #dc1da3;
+    
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.register{
+    border-radius: 15px;
+    margin: 4em;
+    padding: 2em 3em !important ;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    background-color: #f4b4e1;
+    color: #dc1da3;
+    gap: 20px; /* Espacio entre las celdas de la matriz */
+}
+body{height: 100vh;}
+
+.sisa{
+    padding: 0 !important;
+    /* background-color: rgb(162, 121, 147); */
+    /* height: 92vh ; */
+}
+
+.titulo{
+    /* margin-bottom: 1em; */
+    font-weight: bold !important;
+
+}
+
+.normal{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+    
+    /* .sisa{
+        height: 89.814814vh ;
+    } */
+
+    .register{
+        padding: 2em 3em !important ;
+        width: 50vw;
+    }
+}
+
+/* #numero2{
+    background-color: red;
+    width: 100vw;
+    height: 80vh;
+} */
+/* 1em Body = 18px */

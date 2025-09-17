@@ -30,26 +30,30 @@ Table of contents
 
 /* Typography */
 body, ul, li, p, a, label, input, div {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat','Roboto', sans-serif;
   font-size: 18px !important;
   font-weight: 300 !important;
 }
 .h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat','Roboto', sans-serif;
   font-size: 48px !important;
   font-weight: 200 !important;
 }
 .h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat','Roboto', sans-serif;
   font-size: 30px !important;
   font-weight: 300;
 }
 .h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat','Roboto', sans-serif;
   font-size: 22px !important;
 }
 /* General */
-.logo { font-weight: 500 !important;}
+.logo { 
+  font-family: 'Asset';
+  font-weight: 100 !important;
+  font-size: 30px !important;
+}
 .text-warning {  color: #ede861 !important;}
 .text-muted { color: #bcbcbc !important;}
 .text-success { color: #dc1da3 !important;} /*Wisconsin*/
@@ -57,15 +61,34 @@ body, ul, li, p, a, label, input, div {
 .bg-dark { background-color: #212934 !important;}
 .bg-light { background-color: #e9eef5 !important;}
 .bg-black { background-color: #1d242d !important;}
-.bg-success { background-color: #59ab6e !important;}
+.bg-success { background-color: #f586d3 !important;}
 .btn-success {
-  background-color: #e91e9b !important;
-  border-color: #e4239a !important;
+  
+  background-color: #ffffff !important;
+  border: 3px #f193cd solid !important;
+  color: #d628b1 !important;
+}
+.btn-success:hover {
+  background-color: #f193cd !important;
+  border: 3px #e91e9b solid !important;
 }
 .pagination .page-link:hover {color: #000;}
 .pagination .page-link:hover, .pagination .page-link.active {
-  background-color: #69bb7e;
+  background-color: #dc1da3;
   color: #fff;
+}
+.form-check-input {
+  box-shadow:none;
+}
+.form-check-input:checked {
+  box-shadow:none;
+  background-color: #e91e9b;
+  border-color: #e91e9b;
+}
+
+.form-check-input:checked .form-check-input:checked:hover {
+  background-color: #f193cd !important;
+  border: 3px #e91e9b solid !important;
 }
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
@@ -132,7 +155,7 @@ body, ul, li, p, a, label, input, div {
 /* Services */
 .services-icon-wap {transition: .3s;}
 .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
-.services-icon-wap:hover {background: #69bb7e;}
+.services-icon-wap:hover {background: #dc1da3;}
 /* Contact map */
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #e8e8e8;}
