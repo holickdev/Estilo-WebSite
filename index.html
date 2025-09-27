@@ -1,415 +1,646 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <title>Estilo - Tienda en Línea</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <title>Estilo - Tienda en Línea | Plantilla HTML CSS</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
+    />
 
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/templatemo.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
 
     <!-- Cargar estilos de fuentes después de los estilos de diseño -->
-    <link href="https://fonts.googleapis.com/css2?family=Asset&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-<!--
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asset&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <!--
     
 TemplateMo 559 Zay Shop
 
 https://templatemo.com/tm-559-zay-shop
 
 -->
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Inicio Barra Superior -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-                </div>
-                <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
-                </div>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block"
+      id="templatemo_nav_top"
+    >
+      <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between">
+          <div>
+            <i class="fa fa-envelope mx-2"></i>
+            <a
+              class="navbar-sm-brand text-light text-decoration-none"
+              href="mailto:info@company.com"
+              >info@company.com</a
+            >
+            <i class="fa fa-phone mx-2"></i>
+            <a
+              class="navbar-sm-brand text-light text-decoration-none"
+              href="tel:010-020-0340"
+              >010-020-0340</a
+            >
+          </div>
+          <div>
+            <a
+              class="text-light"
+              href="https://fb.com/templatemo"
+              target="_blank"
+              rel="sponsored"
+              ><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i
+            ></a>
+            <a
+              class="text-light"
+              href="https://www.instagram.com/"
+              target="_blank"
+              ><i class="fab fa-instagram fa-sm fa-fw me-2"></i
+            ></a>
+            <a class="text-light" href="https://twitter.com/" target="_blank"
+              ><i class="fab fa-twitter fa-sm fa-fw me-2"></i
+            ></a>
+            <a
+              class="text-light"
+              href="https://www.linkedin.com/"
+              target="_blank"
+              ><i class="fab fa-linkedin fa-sm fa-fw"></i
+            ></a>
+          </div>
         </div>
+      </div>
     </nav>
     <!-- Fin Barra Superior -->
 
-
     <!-- Encabezado -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand text-success h1 align-self-center logo" href="/">
+          Estilo
+        </a>
 
-            <a class="navbar-brand text-success h1 align-self-center logo" href="index.html">
-                Estilo
-            </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#templatemo_main_nav"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">Acerca de</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Tienda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contacto</a>
-                        </li>
-                    </ul>
+        <div
+          class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
+          id="templatemo_main_nav"
+        >
+          <div class="flex-fill">
+            <ul
+              class="nav navbar-nav d-flex justify-content-between mx-lg-auto"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="/">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar align-self-center d-flex">
+            <div
+              class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3"
+            >
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputMobileSearch"
+                  placeholder="Buscar ..."
+                />
+                <div class="input-group-text">
+                  <i class="fa fa-fw fa-search"></i>
                 </div>
-                <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Buscar ...">
-                            <div class="input-group-text">
-                                <i class="fa fa-fw fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="./login.php">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
-                </div>
+              </div>
             </div>
-
+            <a
+              class="nav-icon d-none d-lg-inline"
+              href="#"
+              data-bs-toggle="modal"
+              data-bs-target="#templatemo_search"
+            >
+              <i class="fa fa-fw fa-search text-dark mr-2"></i>
+            </a>
+            <a class="nav-icon position-relative text-decoration-none" href="#">
+              <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+              <span
+                class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"
+                >7</span
+              >
+            </a>
+            <a
+              class="nav-icon position-relative text-decoration-none"
+              href="#"
+            >
+              <i class="fa fa-fw fa-user text-dark mr-3"></i>
+              <span
+                class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"
+                >+99</span
+              >
+            </a>
+          </div>
         </div>
+      </div>
     </nav>
     <!-- Fin Encabezado -->
 
     <!-- Modal de Búsqueda -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Buscar ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
-                </div>
-            </form>
+    <div
+      class="modal fade bg-white"
+      id="templatemo_search"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="w-100 pt-1 mb-5 text-right">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
         </div>
+        <form
+          action=""
+          method="get"
+          class="modal-content modal-body border-0 p-0"
+        >
+          <div class="input-group mb-2">
+            <input
+              type="text"
+              class="form-control"
+              id="inputModalSearch"
+              name="q"
+              placeholder="Buscar ..."
+            />
+            <button
+              type="submit"
+              class="input-group-text bg-success text-light"
+            >
+              <i class="fa fa-fw fa-search text-white"></i>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
 
-
-
     <!-- Inicio Banner Principal -->
-    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid fotos" src="./assets/img/Estilo/ShortGym2-SF.png" alt="ShortGym2-SF">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left align-self-center">
-                                <h2 class="h1 text-success"><b>Estilo</b> E-Commerce</h2>
-                                <br>
-                                <h3 class="h2">¿El Estilo se nace o se hace?</h3>
-                                <p>
-                                    La verdad no importa, solo importa lucir con Estilo.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+    <div
+      id="template-mo-zay-hero-carousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-bs-target="#template-mo-zay-hero-carousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></li>
+        <li
+          data-bs-target="#template-mo-zay-hero-carousel"
+          data-bs-slide-to="1"
+        ></li>
+        <li
+          data-bs-target="#template-mo-zay-hero-carousel"
+          data-bs-slide-to="2"
+        ></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <img
+                  class="img-fluid fotos img-ajustada"
+                  src="https://images.unsplash.com/photo-1612847759772-17b4d420af34?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="ShortGym2-SF"
+                />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left align-self-center">
+                  <h2 class="h1 text-success"><b>Estilo</b> E-Commerce</h2>
+                  <br />
+                  <h3 class="h2">¿El Estilo se nace o se hace?</h3>
+                  <p>La verdad no importa, solo importa lucir con Estilo.</p>
                 </div>
+              </div>
             </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/Estilo/FaldaAzulMarino.jpg" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h2 class="h1 text-success"> Ejercitate con Estilo </h2>
-                                <br>
-                                <h3 class="h2">Nuevos <strong>Conjuntos Deportivos</strong> </h3>
-                                <br>
-                                <p>
-                                    La comodidad y Estilo van de la mano.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/Estilo/Pantis2.jpg" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h2 class="h1 text-success">Arena y Playa</h2>
-                                b
-                                <h3 class="h2">Nuevoa Trajes de Baños</h3>
-                                <p>
-                                    No dejes que el calor te quite tu <b>Estilo</b>.<br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
-            <i class="fas fa-chevron-left"></i>
-        </a>
-        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
-            <i class="fas fa-chevron-right"></i>
-        </a>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <img
+                  class="img-fluid img-ajustada"
+                  src="https://images.unsplash.com/photo-1754167718626-e1dc5d26b4c4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Falda Azul Marino"
+                />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left">
+                  <h2 class="h1 text-success">Ejercitate con Estilo</h2>
+                  <br />
+                  <h3 class="h2">
+                    Nuevos <strong>Conjuntos Deportivos</strong>
+                  </h3>
+                  <p>La comodidad y Estilo van de la mano.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                <img
+                  class="img-fluid img-ajustada"
+                  src="https://images.unsplash.com/photo-1558155453-e5444b5d8f6d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Pantis2"
+                />
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                <div class="text-align-left">
+                  <h2 class="h1 text-success">Arena y Playa</h2>
+                  <br />
+
+                  <h3 class="h2">Nuevos Trajes de Baños</h3>
+                  <p>No dejes que el calor te quite tu <b>Estilo</b>.<br /></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev text-decoration-none w-auto ps-3"
+        href="#template-mo-zay-hero-carousel"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <i class="fas fa-chevron-left"></i>
+      </a>
+      <a
+        class="carousel-control-next text-decoration-none w-auto pe-3"
+        href="#template-mo-zay-hero-carousel"
+        role="button"
+        data-bs-slide="next"
+      >
+        <i class="fas fa-chevron-right"></i>
+      </a>
     </div>
     <!-- Fin Banner Principal -->
 
     <!-- Inicio Categorías del Mes -->
-    <section class="container py-5">
-        <div class="row text-center pt-3">
-            <div class="col-lg-6 m-auto">
-                <h2 class="h1">Categorías del Mes</h2>
-                <p>
-                    Descubre nuestras categorías destacadas de este mes y encuentra lo que buscas con Estilo.
-                </p>
-            </div>
+    <section class="container py-5 categorias-mes">
+      <div class="row text-center pt-3">
+        <div class="col-lg-6 m-auto">
+          <h2 class="h1">Categorías del Mes</h2>
+          <p>
+            Descubre nuestras categorías destacadas de este mes y encuentra lo
+            que buscas con Estilo.
+          </p>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">Relojes</h5>
-                <p class="text-center"><a class="btn btn-success">Ir a la Tienda</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Zapatos</h2>
-                <p class="text-center"><a class="btn btn-success">Ir a la Tienda</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Accesorios</h2>
-                <p class="text-center"><a class="btn btn-success">Ir a la Tienda</a></p>
-            </div>
+      </div>
+      <div class="row gap-0 justify-content-center align-items-stretch">
+        <div class="col-12 col-sm-10 col-md-4 d-flex flex-column align-items-center p-3 mb-3 categoria-card">
+          <a href="#" class="d-block w-100 text-center">
+            <img
+              src="./assets/img/category_img_01.jpg"
+              class="rounded-circle img-fluid border categoria-img"
+              alt="Relojes"
+              style="width: 160px; height: 160px; object-fit: cover; transition: transform 0.2s;"
+              onmouseover="this.style.transform='scale(1.13)'" onmouseout="this.style.transform='scale(1)'"
+            />
+          </a>
+          <h5 class="text-center mt-3 mb-2 fw-bold">Relojes</h5>
+          <p class="text-center mb-0">
+            <a class="btn btn-success">Ir a la Tienda</a>
+          </p>
         </div>
+        <div class="col-12 col-sm-10 col-md-4 d-flex flex-column align-items-center p-3 mb-3 categoria-card">
+          <a href="#" class="d-block w-100 text-center">
+            <img
+              src="https://images.unsplash.com/photo-1659785568869-aa061a0f8e87?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded-circle img-fluid border categoria-img"
+              alt="Zapatos"
+              style="width: 160px; height: 160px; object-fit: cover; transition: transform 0.2s;"
+              onmouseover="this.style.transform='scale(1.13)'" onmouseout="this.style.transform='scale(1)'"
+            />
+          </a>
+          <h5 class="text-center mt-3 mb-2 fw-bold">Zapatos</h5>
+          <p class="text-center mb-0">
+            <a class="btn btn-success">Ir a la Tienda</a>
+          </p>
+        </div>
+        <div class="col-12 col-sm-10 col-md-4 d-flex flex-column align-items-center p-3 mb-3 categoria-card">
+          <a href="#" class="d-block w-100 text-center">
+            <img
+              src="https://images.unsplash.com/photo-1693212793204-bcea856c75fe?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded-circle img-fluid border categoria-img"
+              alt="Accesorios"
+              style="width: 160px; height: 160px; object-fit: cover; transition: transform 0.2s;"
+              onmouseover="this.style.transform='scale(1.13)'" onmouseout="this.style.transform='scale(1)'"
+            />
+          </a>
+          <h5 class="text-center mt-3 mb-2 fw-bold">Accesorios</h5>
+          <p class="text-center mb-0">
+            <a class="btn btn-success">Ir a la Tienda</a>
+          </p>
+        </div>
+      </div>
     </section>
     <!-- Fin Categorías del Mes -->
 
-
     <!-- Inicio Productos Destacados -->
     <section class="bg-light">
-        <div class="container py-5">
-            <div class="row text-center py-3">
-                <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Productos Destacados</h1>
-                    <p>
-                        Descubre nuestros productos más populares y recomendados para ti.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$240.00</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Pesas de Gimnasio</a>
-                            <p class="card-text">
-                                Ideales para tus rutinas de ejercicio en casa o en el gimnasio.
-                            </p>
-                            <p class="text-muted">Reseñas (24)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_02.jpg" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$480.00</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Zapatos Nike Cloud</a>
-                            <p class="card-text">
-                                Comodidad y estilo para cada paso. ¡Perfectos para cualquier ocasión!
-                            </p>
-                            <p class="text-muted">Reseñas (48)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_03.jpg" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$360.00</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Zapatos Adidas Verano</a>
-                            <p class="card-text">
-                                Ligeros y frescos para los días más calurosos del año.
-                            </p>
-                            <p class="text-muted">Reseñas (74)</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container py-5">
+        <div class="row text-center py-3">
+          <div class="col-lg-6 m-auto">
+            <h1 class="h1">Productos Destacados</h1>
+            <p>
+              Descubre nuestros productos más populares y recomendados para ti.
+            </p>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="shop-single.html">
+                <img
+                  src="https://images.unsplash.com/photo-1625708458528-802ec79b1ed8?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  class="card-img-top img-ajustada"
+                  alt="Botellas de agua"
+                />
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-muted fa fa-star"></i>
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                  <li class="text-muted text-right">$24.99</li>
+                </ul>
+                <a
+                  href="shop-single.html"
+                  class="h2 text-decoration-none text-dark"
+                  >Botellas de agua</a
+                >
+                <p class="card-text">
+                  Ideales para hidratarte en casa o en el
+                  gimnasio.
+                </p>
+                <p class="text-muted">Reseñas (24)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="shop-single.html">
+                <img
+                  src="https://images.unsplash.com/photo-1658492283686-d28b43641700?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dpg"
+                  class="card-img-top img-ajustada"
+                  alt="Zapatos Nike Cloud"
+                />
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-muted fa fa-star"></i>
+                    <i class="text-muted fa fa-star"></i>
+                  </li>
+                  <li class="text-muted text-right">$84.98</li>
+                </ul>
+                <a
+                  href="shop-single.html"
+                  class="h2 text-decoration-none text-dark"
+                  >Zapatos Nike Cloud</a
+                >
+                <p class="card-text">
+                  Comodidad y estilo para cada paso. ¡Perfectos para cualquier
+                  ocasión!
+                </p>
+                <p class="text-muted">Reseñas (48)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100">
+              <a href="shop-single.html">
+                <img
+                  src="https://images.unsplash.com/photo-1704942968209-6c1e05ef3f95?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  class="card-img-top img-ajustada"
+                  alt="Smart Watch"
+                />
+              </a>
+              <div class="card-body">
+                <ul class="list-unstyled d-flex justify-content-between">
+                  <li>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
+                  </li>
+                  <li class="text-muted text-right">$360.00</li>
+                </ul>
+                <a
+                  href="shop-single.html"
+                  class="h2 text-decoration-none text-dark"
+                  >Smart Watch</a
+                >
+                <p class="card-text">
+                  Relojes inteligentes para llevar tu entrenamiento al siguiente nivel.
+                </p>
+                <p class="text-muted">Reseñas (74)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Fin Productos Destacados -->
 
-
     <!-- Inicio Pie de Página -->
     <footer class="bg-dark" id="tempaltemo_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-success border-bottom pb-3 border-light logo">
+              Estilo
+            </h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li>
+                <i class="fas fa-map-marker-alt fa-fw"></i>
+                Isla De Margarita - Venezuela
+              </li>
+              <li>
+                <i class="fa fa-phone fa-fw"></i>
+                <a class="text-decoration-none" href="tel:010-020-0340"
+                  >+58 412 358 8120</a
+                >
+              </li>
+              <li>
+                <i class="fa fa-envelope fa-fw"></i>
+                <a class="text-decoration-none" href="mailto:sofidelaisla@gmail.com"
+                  >sofidelaisla@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-light border-bottom pb-3 border-light">
+              Productos
+            </h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li>
+                <a class="text-decoration-none" href="#">Ropa Deportiva</a>
+              </li>
+              <li><a class="text-decoration-none" href="#">Ropa Playera</a></li>
+              <li><a class="text-decoration-none" href="#">Accesorios</a></li>
+              <li><a class="text-decoration-none" href="#">Zapatos</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 pt-5">
+            <h2 class="h2 text-light border-bottom pb-3 border-light">
+              Más Información
+            </h2>
+            <ul class="list-unstyled text-light footer-link-list">
+              <li><a class="text-decoration-none" href="#">Inicio</a></li>
+              <li>
+                <a class="text-decoration-none" href="#">Sobre Nosotros</a>
+              </li>
+              <li><a class="text-decoration-none" href="#">Ubicaciones</a></li>
+              <li>
+                <a class="text-decoration-none" href="#"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li><a class="text-decoration-none" href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row text-light mb-4">
+          <div class="col-12 mb-3">
+            <div class="w-100 my-3 border-top border-light"></div>
+          </div>
+          <div class="col-auto me-auto">
+            <ul class="list-inline text-left footer-icons">
+              <li
+                class="list-inline-item border border-light rounded-circle text-center"
+              >
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="http://facebook.com/"
+                  ><i class="fab fa-facebook-f fa-lg fa-fw"></i
+                ></a>
+              </li>
+              <li
+                class="list-inline-item border border-light rounded-circle text-center"
+              >
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="https://www.instagram.com/"
+                  ><i class="fab fa-instagram fa-lg fa-fw"></i
+                ></a>
+              </li>
+              <li
+                class="list-inline-item border border-light rounded-circle text-center"
+              >
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="https://twitter.com/"
+                  ><i class="fab fa-twitter fa-lg fa-fw"></i
+                ></a>
+              </li>
+              <li
+                class="list-inline-item border border-light rounded-circle text-center"
+              >
+                <a
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  href="https://www.linkedin.com/"
+                  ><i class="fab fa-linkedin fa-lg fa-fw"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-auto">
+            <label class="sr-only" for="subscribeEmail"
+              >Dirección de Correo Electrónico</label
+            >
+            <div class="input-group mb-2">
+              <input
+                type="text"
+                class="form-control bg-dark border-light"
+                id="subscribeEmail"
+                placeholder="Correo electrónico"
+              />
+              <div class="input-group-text btn-success text-light">
+                Suscribirse
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-100 bg-black py-3">
         <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Estilo</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Isla De Margarita - Venezuela
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">+58 412 358 8120</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Ropa Deportiva</a></li>
-                        <li><a class="text-decoration-none" href="#">Ropa Playera</a></li>
-                        <li><a class="text-decoration-none" href="#">Accesorios</a></li>
-                        <li><a class="text-decoration-none" href="#">Zapatos</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Más Información</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Inicio</a></li>
-                        <li><a class="text-decoration-none" href="#">Sobre Nosotros</a></li>
-                        <li><a class="text-decoration-none" href="#">Ubicaciones</a></li>
-                        <li><a class="text-decoration-none" href="#">Preguntas Frecuentes</a></li>
-                        <li><a class="text-decoration-none" href="#">Contacto</a></li>
-                    </ul>
-                </div>
-
+          <div class="row pt-2">
+            <div class="col-12">
+              <p class="text-left text-light">
+                <!-- Eliminado fragmento de copyright y crédito de TemplateMo -->
+              </p>
             </div>
-
-            <div class="row text-light mb-4">
-                <div class="col-12 mb-3">
-                    <div class="w-100 my-3 border-top border-light"></div>
-                </div>
-                <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <label class="sr-only" for="subscribeEmail">Dirección de Correo Electrónico</label>
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Correo electrónico">
-                        <div class="input-group-text btn-success text-light">Suscribirse</div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-
-        <div class="w-100 bg-black py-3">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light">
-                            <!-- Eliminado fragmento de copyright y crédito de TemplateMo -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Eliminado fragmento de copyright y crédito de TemplateMo -->
-
+      </div>
+      <!-- Eliminado fragmento de copyright y crédito de TemplateMo -->
     </footer>
     <!-- Fin Pie de Página -->
 
@@ -420,6 +651,72 @@ https://templatemo.com/tm-559-zay-shop
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
     <!-- End Script -->
-</body>
 
+    <!-- Agregar estilos para mejorar la disposición de las imágenes y la responsividad del carrusel -->
+    <style>
+      .img-ajustada {
+        width: 100%;
+        max-height: 350px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 12px;
+      }
+      /* Mejorar responsividad de títulos y textos en el carrusel */
+      .carousel-inner .h1,
+      .carousel-inner .h2,
+      .carousel-inner h3 {
+        word-break: break-word;
+        line-height: 1.2;
+      }
+      .carousel-inner .h1 {
+        font-size: 2.5rem;
+      }
+      .carousel-inner .h2,
+      .carousel-inner h3 {
+        font-size: 1.7rem;
+      }
+      .carousel-inner p {
+        font-size: 1.1rem;
+      }
+      @media (max-width: 992px) {
+        .carousel-inner .h1 {
+          font-size: 2rem;
+        }
+        .carousel-inner .h2,
+        .carousel-inner h3 {
+          font-size: 1.3rem;
+        }
+        .carousel-inner p {
+          font-size: 1rem;
+        }
+        .carousel-inner .text-align-left {
+          text-align: center !important;
+          padding: 0 10px;
+        }
+        .carousel-inner .align-self-center {
+          align-items: center !important;
+          justify-content: center !important;
+        }
+      }
+      @media (max-width: 768px) {
+        .img-ajustada {
+          max-height: 180px;
+        }
+        .carousel-inner .h1 {
+          font-size: 1.3rem;
+        }
+        .carousel-inner .h2,
+        .carousel-inner h3 {
+          font-size: 1rem;
+        }
+        .carousel-inner p {
+          font-size: 0.95rem;
+        }
+        .carousel-inner .text-align-left {
+          text-align: center !important;
+          padding: 0 5px;
+        }
+      }
+    </style>
+  </body>
 </html>
